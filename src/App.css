@@ -1,38 +1,66 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+  font-family: "Arial", sans-serif;
+  background-color: #fff3cd;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #800000;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #800000;
+}
+
+button {
+  background-color: #4caf50;
   color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Scoreboard {
+  background-color: #f8d7da;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.Questions {
+  background-color: #d4edda;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.Answers {
+  background-color: #cce5ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.Answers button {
+  background-color: #007bff;
+}
+
+.Answers button:hover {
+  background-color: #0056b3;
 }
